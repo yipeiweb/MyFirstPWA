@@ -1,0 +1,53 @@
+El orden representa cada key del json
+
+1.Nombre de la aplicación que apacera en la pagina de entrada
+2.Nombre de la aplicación que apacera en el icono de la aplicacion en el escritorio de tu sistema operativo
+3.Descripción de la aplicacion
+4.Color fondo de la pagina de bievenida de aplicacion
+5.Color principal de PWA
+6.Orientacion de la aplicacion: 
+    landscape(horizontal)
+    portrait(vertical)
+7.Como mostrara la aplicación:
+    browser(como un navegador con barra navegacion)
+    standalone(sin barra navegacion, solo la pagina)
+8.La pagina principal de la aplicacion (el parametro indica que es una web pwa)
+9.Ubicacion configuraciones de la app
+10.Lenguaje de la app
+11.Importar los iconos
+
+
+{
+    "name": "YiPeiTaskManager",
+    "short_name": "YiPeiTaskManager",
+    "description": "A static page for test my first PWA",
+    "background_color": "white",
+    "theme_color": "dodgerblue",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./index.html?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-Es",
+    "icons": [
+        {
+            "src": "./assets/imagenes/android-chrome-512x512.png",
+            "sizes":"512x512",
+            "type":"image/png"    
+        },
+        {
+            "src": "./assets/imagenes/android-chrome-192x192.png",
+            "sizes":"192x192",
+            "type":"image/png"    
+        },
+        {
+            "src": "./assets/imagenes/favicon-32x32.png",
+            "sizes":"32x32",
+            "type":"image/png"    
+        },
+        {
+            "src": "./assets/imagenes/favicon-16x16.png",
+            "sizes":"16x16",
+            "type":"image/png"    
+        }
+    ]
+}

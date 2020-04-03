@@ -1,0 +1,99 @@
+#content {
+    width: 70%;
+    float: left;
+    min-height: 450px;
+    margin-right: 25px;
+}
+
+#content #last-tasks {
+    width: 30%;
+    height: 30%;
+    background: dodgerblue;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 30px;
+    text-shadow: 0px 0px  2px grey;
+    animation: content-h2-animation infinite 10s linear;
+}
+
+#content #last-tasks:hover {
+    background: white;
+    color: dodgerblue;
+}
+
+@keyframes content-h2-animation {
+    25% {
+        margin-left: 200px;
+    }
+
+    50%{
+        margin-left: 300px;
+    }
+
+    100% {
+        text-align: 150px;
+    }
+}
+
+.article-item {
+    color: white;
+    margin-top: 30px;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.article-item .img-wrap {
+    float: left;
+    width: 150px;
+    height: 130px;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.article-item .img-wrap img {
+    height: 100%;
+    text-align: center;
+}
+
+.article-item h2 {
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 7px;
+}
+
+.article-item .date {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    color: red;
+}
+
+.article-item a {
+    float: left;
+}
+
+.article-detail {
+    color: black;
+    background: white;
+}
+
+.article-detail .img-wrap {
+    float: none;
+    width: 100%;
+    height: 300px;
+    margin: 0px auto;
+}
+
+.article-detail .img-wrap img {
+    width: 100%;
+}
+
+.article-detail h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}

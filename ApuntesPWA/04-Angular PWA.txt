@@ -1,0 +1,9 @@
+1.Instalar libreria Angular PWA, la libreria ya te configura para que sea una app pwa:
+ng add @angular/pwa
+2.El servidor ng serve de angular no sirve para ejecutar service worker en local hay que instalar un pequeño servidor local para que service worker trabaje:
+npm install lite-server --save-dev
+3.Configurar en package.json para ejecutar este comando, añadir dentro del array de key "scripts", 
+el comando compilara el angular para subir aproduccion y le añadira al servidor que hemos instalado antes:
+    "start:prod": "ng build --prod && lite-server --baseDir dist/NombreTuProyecto",
+4.Ejecutar npm run start:prod
+

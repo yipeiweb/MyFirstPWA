@@ -1,0 +1,28 @@
+Añadir siguientes archivos en cada pagina html:
+ 
+     <!-- METADATOS PWA-->
+        <!-- COLOR DE LA APLICACIÓN -->
+        <meta name="theme-color" content="dodgerblue"/>
+        <!-- OPTIMIZADO PARA MOVIL-->
+            <!-- OPTIMIZAR EL TAMAÑO-->
+            <meta name="MobileOptimized" content="width"/>
+            <!-- RECONOCER QUE ES UNA PWA -->
+            <meta name="HandledFiendly" content="true"/>
+        <!-- META ETIQUETA PWA PARA iOS-->
+            <!-- RECONOCER QUE ES UNA PWA -->
+            <meta name="apple-moble-web-app-capable" content="yes"/>
+            <!-- COLOR DE LA PWA -->
+            <meta name="apple-moble-web-app-status-bar-style" content="dodgerblue"/>
+            <!-- ICONO DE APP EN ESCRITORIO -->
+            <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png"/>
+            <!--ICONO DE ENTRADA DE LA APP-->
+            <link rel="apple-touch-startup-image" href="assets/images/android-chrome-192x192.png"/>
+        <!--CONFIGURACION GENERAL DE PWA-->
+        <link rel="manifest" href="manifest.json">
+        <!-- ICONOS PWA -->        
+        <link rel="icon" type="image/png" sizes="512x512" href="./assets/images/android-chrome-512x512.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/android-chrome-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+        <link rel="mask-icon" href="./assets/images/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">

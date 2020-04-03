@@ -1,0 +1,92 @@
+@media (max-width: 1488px){
+    .center {
+        width: 85%;
+    }
+}
+
+@media (max-width: 1314px){
+    .center {
+        width: 95%;
+    }
+
+    #logo {
+        float: none;
+        width: 340px;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+
+    #menu,#menu ul {
+        clear: both;
+        float: none;
+        width: auto;
+        margin: 0px;
+        padding: 0px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 797px){
+    @keyframes slider-text-animation {
+        25% {
+            margin-left: 100px;
+        }
+    
+        50%{
+            margin-left: 0px;
+        }
+    
+        75% {
+            margin-left: 100px;
+        }
+    
+        100% {
+            text-align: 0px;
+        }
+    }
+
+    #content {
+        float: none;
+        width: 100%;
+        min-height: 0px;
+    }
+
+    #sidebar {
+        float: none;
+        width: 90%;
+        margin: 0px auto;
+    }
+}
+
+@media (max-width: 400px){
+    #brand {
+        font-size: 22px;
+    }
+
+    #slider h1{
+        padding-top: 45px;
+    }
+
+    #slider .btn-white {
+        font-size: 15px;
+        padding: 6px;
+    }
+
+    @keyframes slider-text-animation {
+        25% {
+            margin-left: 50px;
+        }
+    
+        50%{
+            margin-left: 0px;
+        }
+    
+        75% {
+            margin-left: 50px;
+        }
+    
+        100% {
+            text-align: 0px;
+        }
+    }
+}
